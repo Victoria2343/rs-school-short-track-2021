@@ -12,8 +12,12 @@
  */
 
 class Queue {
+  constructor() {
+    this.arr = [];
+  }
+
   get size() {
-    throw new Error('Not implemented');
+    return this.arr.length;
   }
 
   enqueue(/* element */) {
